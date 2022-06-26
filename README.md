@@ -1,4 +1,4 @@
-# Landing_Page
+# Udemy Landing Page
 
 My landing page project which i made in my udemy classes.You can reach my project from [here](https://esadakman.github.io/landing_page_1/)
 

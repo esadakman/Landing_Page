@@ -1,11 +1,12 @@
 /* Text */
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 .heading-small {
     font-size: 1.25rem;
+    
 }
 
 .heading-medium {
@@ -18,37 +19,45 @@
 
 /* Colors */
 
-.bg-dark-blue{
+.bg-dark-blue {
     background: #062e51;
 }
 
-.bg-ligth-blue{
+.bg-ligth-blue {
     background: #336ea2;
 }
 
 /* Buttons */
 .btn {
-    margin-top: 1.25rem;    
+    margin-top: 1.25rem;
     padding: 0.8rem 3rem;
     border-radius: 8px;
     letter-spacing: 0.5px;
+    border: 0.5px solid #336ea2;
+    transition: .3s linear all;
+
 }
+
 .btn-primary {
     background: #336ea2;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     color: #336ea2;
     background: #fff;
     border: 0.5px solid #336ea2;
 }
-.btn-dark{
+
+.btn-dark {
     background: #333;
 }
-.btn-dark:hover{
+
+.btn-dark:hover {
     color: #333;
     background: #fff;
     border: 0.5px solid #333;
 }
+
 .btn-block {
     width: 100%;
     text-align: center;
@@ -66,9 +75,11 @@
 .form-group {
     padding: 0.25rem 0;
 }
+
 .form-group label {
     display: block;
 }
+
 .form-control {
     width: 100%;
     padding: 0.4rem;
@@ -76,7 +87,8 @@
     resize: none;
     border-radius: 5px;
 }
-.container{
+
+.container {
     max-width: 1100px;
     margin: 0 auto;
 }
